@@ -49,6 +49,7 @@ test:
 #
 production:
  <<: *default
+ database: pictgram_production
  adapter: postgresql
  encoding: unicode
  pool: 5
